@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #efeee9;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
   text-align: center;
 }
 
-li{
+li {
   background-color: #9a816d;
   padding: inherit;
 }
@@ -25,4 +25,15 @@ a {
   color: #efeee9;
   text-decoration: none;
   font-weight: bold;
+}
+
+a:hover {
+  display: block;
+  background-color: #795437;
+  text-decoration: none;
+  width: 100%;
+}
+
+body {
+  margin: 0;
 }
